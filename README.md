@@ -44,3 +44,13 @@ public int getTone()
 }
     
 frameworks\base\media\jni\audioeffect\android_media_AudioEffect.cpp
+
+
+complie:
+cd  android_sourcecode/
+buildenv
+lunch
+make update-api  #first
+make 
+
+wish you luck
